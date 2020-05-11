@@ -1,5 +1,6 @@
 function [ out ] = HaarT_t( x, lam )
 
+
     h1 = lam(1) * [1   1; -1 -1];
     h2 = lam(2) * [1  -1;  1 -1];
     h3 = lam(3) * [1  -1; -1  1];
